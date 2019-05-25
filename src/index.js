@@ -5,6 +5,7 @@ import App from "./App";
 import Home from "./routes/home";
 import About from "./routes/about";
 import Projects from "./routes/projects";
+import Contact from "./routes/contact";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -14,6 +15,7 @@ ReactDOM.render(
       <Route path="/" exact component={Home} />
       <Route path="/about" exact component={About} />
       <Route path="/projects" exact component={Projects} />
+      <Route path="/contact" exact component={Contact} />
     </App>
   </Router>,
   document.getElementById("root")

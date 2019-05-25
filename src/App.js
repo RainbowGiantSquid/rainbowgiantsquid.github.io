@@ -9,13 +9,18 @@ function App(props) {
         <nav>
           <ul>
             <li>
-              <NavLink to="/">home</NavLink>
+              <NavLink to="/" exact>
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/about">about me</NavLink>
+              <NavLink to="/about">About Me</NavLink>
             </li>
             <li>
-              <NavLink to="/projects">my projects</NavLink>
+              <NavLink to="/projects">My Projects</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </nav>
