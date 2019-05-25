@@ -12,3 +12,35 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+}
+
+nav ul li a {
+  padding: 10px 20px;
+  transition: background-color 1s, color 1s;
+}
+
+nav ul li a:visited {
+  text-decoration: none;
+  color: #282c34;
+}
+
+nav ul li:active {
+  color: white;
+}
+
+nav ul li a:hover, nav ul li a:visited:hover {
+  background-color: slategray;
+  color: white;
+  border-radius: 2px;
+  transition: background-color 1s, color 0.5s;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: slategray;
+}
